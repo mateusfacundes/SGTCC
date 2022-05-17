@@ -1,0 +1,23 @@
+{% include 'frontend/header.html' %}
+
+
+<div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input type="text" id="username" placeholder="Usuario"/>
+        <input type="password" id="password" placeholder="Senha"/>
+
+      </form>
+      <button id="submit">Entrar</button>
+      <p class="message">Ainda não possui uma conta? <a href="http://127.0.0.1:8000/registro">Registre-se</a></p>
+    </div>
+</div>
+
+
+<script>
+    login('submit');
+
+</script>
+{% include 'frontend/footer.html' %}
+
+

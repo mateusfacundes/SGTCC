@@ -1,0 +1,31 @@
+{% load static %}
+{% include 'frontend/header.html' %}
+
+<link rel="stylesheet" href="{% static '/frontend/css/navbar.css' %}" >
+<script src="{% static '/frontend/js/navbar.js' %}"></script>
+
+<div class="sidebar-wrapper">
+    <button onclick="logout()"  class="logout"> Sair</button>
+</div>
+
+<div id="sidebar-wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+              <a href="#">
+                  Gerenciamento TCC
+              </a>
+          </li>
+          <li>
+              <a href="#">Equipe</a>
+          </li>
+          <li>
+              <a href="#">TCC</a>
+          </li>
+          <li>
+              <a href="#">Relatorios</a>
+          </li>
+      </ul>
+  </div>      
+</div>
